@@ -31,7 +31,7 @@ nav:
   - name:           "About"
     href:           "/microcast/about" # CHANGE "microcast" to match your repository
   - name:           "Feed"
-    href:           "/microcast/podcast.rss" # CHANGE "microcast" to match your repository
+    href:           "/podcast.rss" # CHANGE "microcast" to match your repository
   - name:           "iTunes"
     href:           "https://itunes.apple.com/us/podcast/driftwood/id1080157963" #CHANGE
   - name:           "Overcast"
