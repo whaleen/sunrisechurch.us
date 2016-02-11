@@ -1,17 +1,7 @@
 ---
 layout: default
 ---
-<header class="masthead">
-  <h1 class="masthead-title">
-    <a href="{{ site.url }}/">{{ site.title }}<span> podcast</span></a>
-  </h1>
-  <nav class="masthead-nav">
-    {% for nav in site.nav %}
-    <a href="{{ site.url }}{{ nav.href }}">{{ nav.name }}</a>
-    {% endfor %}
-    <a href="itpc://whaleen.github.io/sunrisechurch.us/podcast.rss">Subscribe in iTunes</a>
-  </nav>
-</header>
+{% include header.html %}
 <div class="content page">
   <h1 class="page-title">{{ page.title }}</h1>
   {{ content }}

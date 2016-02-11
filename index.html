@@ -1,16 +1,7 @@
 ---
 layout: default
 ---
-<header class="masthead">
-  <h1 class="masthead-title">
-    <a href="{{ site.url }}/">{{ site.title }}<span> podcast</span></a>
-  </h1>
-  <nav class="masthead-nav">
-    {% for nav in site.nav %}
-    <a href="{{ site.url }}{{ nav.href }}">{{ nav.name }}</a>
-    {% endfor %}
-  </nav>
-</header>
+{% include header.html %}
 <div class="content list">
 {% if site.posts.size == 0 %}
   <h2>No post found</h2>

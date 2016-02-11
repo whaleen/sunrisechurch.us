@@ -6,9 +6,9 @@
 		<description>A Podcast of Sermons from Sunrise Church, a Christian Reformed Church in McMinnville OR pastored by Bill Wilton.</description>
 		<link>http://127.0.0.1:4000</link>
 		<language>en-us</language>
-		<copyright>2016-2016-02-10 21:32:20 -0500 Sunrise Church</copyright>
-		<pubDate>Wed, 10 Feb 2016 21:32:20 -0500</pubDate>
-		<lastBuildDate>Wed, 10 Feb 2016 21:32:20 -0500</lastBuildDate>
+		<copyright>2016-2016-02-10 21:40:20 -0500 Sunrise Church</copyright>
+		<pubDate>Wed, 10 Feb 2016 21:40:20 -0500</pubDate>
+		<lastBuildDate>Wed, 10 Feb 2016 21:40:20 -0500</lastBuildDate>
 		<image>
 			<link>http://127.0.0.1:4000</link>
 			<url>http://127.0.0.1:4000/images/itunes.png</url>
@@ -46,7 +46,7 @@
 				<enclosure url="http://127.0.0.1:4000/audio/2016-02-07.m4a" length="49422855" type="audio/x-m4a"/>
 				<itunes:author>Bill Wilton</itunes:author>
 				<itunes:subtitle>Sunrise Church: Episode 1: Daniel</itunes:subtitle>
-				<itunes:summary>A small explanation of what we&#39;re doing here.</itunes:summary>
+				<itunes:summary>A small explanation of what we&#39;re doing here. This summary of the podcast is written each week.</itunes:summary>
 				<itunes:duration>49:30</itunes:duration>
 				<itunes:keywords></itunes:keywords>
 				<itunes:image href="http://127.0.0.1:4000/images/itunes.png" />

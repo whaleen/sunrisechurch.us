@@ -4,7 +4,7 @@ title: 'Episode 1: Daniel' # quotes allow forbidden characters like the colon
 date: 2016-02-09 21:55:44 -0800
 file: /audio/2016-02-07.m4a
 shownotes: <p>This is where 'show notes" go if any. A brief synopsis of the 'episode' is already in the summary (visable in iTunes or other app) so here would be more extended writing. Totally optional.</p> # <p>It is important that they are written in HTML without manual line breaks in the text. If you need link breaks or paragraphs, use the correct tags as you see here.</p>
-summary: A small explanation of what we're doing here.
+summary: A small explanation of what we're doing here. This summary of the podcast is written each week.
 duration: "49:30" # audio length in min:sec
 length: "49422855" # file size in bytes
 explicit: "no" # change to yes to flag with the explicit tag
