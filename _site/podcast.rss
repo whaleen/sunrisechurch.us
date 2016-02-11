@@ -6,9 +6,9 @@
 		<description>A Podcast of Sermons from Sunrise Church, a Christian Reformed Church in McMinnville OR pastored by Bill Wilton.</description>
 		<link>http://127.0.0.1:4000</link>
 		<language>en-us</language>
-		<copyright>2016-2016-02-10 20:48:59 -0500 Sunrise Church</copyright>
-		<pubDate>Wed, 10 Feb 2016 20:48:59 -0500</pubDate>
-		<lastBuildDate>Wed, 10 Feb 2016 20:48:59 -0500</lastBuildDate>
+		<copyright>2016-2016-02-10 20:51:17 -0500 Sunrise Church</copyright>
+		<pubDate>Wed, 10 Feb 2016 20:51:17 -0500</pubDate>
+		<lastBuildDate>Wed, 10 Feb 2016 20:51:17 -0500</lastBuildDate>
 		<image>
 			<link>http://127.0.0.1:4000</link>
 			<url>http://127.0.0.1:4000/images/itunes.png</url>
@@ -41,7 +41,7 @@
 				<title>Episode 1: Daniel</title>
 				<link>http://127.0.0.1:4000/1</link>
 				<pubDate>Wed, 10 Feb 2016 00:55:44 -0500</pubDate>
-				<description>&lt;p&gt;This is where you would put &lt;a href=&quot;&quot;&gt;shownotes&lt;/a&gt; if you had any.&lt;/p&gt;&lt;p&gt;It is important that they are written in HTML without manual line breaks in the text. If you need link breaks or paragraphs, use the correct tags as you see here.&lt;/p&gt;</description>
+				<description>&lt;p&gt;This is where &#39;show notes&quot; go if any. Could be a brief synopsis of sermon.&lt;/p&gt;</description>
 				<guid isPermaLink="true">http://127.0.0.1:4000/1</guid>
 				<enclosure url="http://127.0.0.1:4000/audio/2016-02-07.m4a" length="49422855" type="audio/x-m4a"/>
 				<itunes:author>Bill Wilton</itunes:author>
