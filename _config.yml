@@ -25,19 +25,6 @@ permalink: /:title/
 markdown: kramdown
 timezone: America/New_York #CHANGE
 
-# Basic
-
-# Navigation
-nav:
-  - name:           "About"
-    href:           "/about"
-  - name:           "Feed"
-    href:           "/podcast.rss"
-  # - name:           "iTunes"
-  #   href:           "https://itunes.apple.com/us/podcast/driftwood/id1080157963" #CHANGE
-  # - name:           "Overcast"
-  #   href:           "https://overcast.fm/itunes1080157963/driftwood" # CHANGE
-
 # Sass
 sass:
   style:            :compressed
