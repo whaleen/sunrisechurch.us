@@ -4,7 +4,7 @@
 # Site settings
 baseurl: "" # repository name
 # url: "http://sunrisechurch.us" # Production host
-url: "http://whaleen.github.io/sunrisechurch.us/" # Development host
+url: "http://whaleen.github.io/sunrisechurch.us" # Development host
 # url: "http://127.0.0.1:4000" # Either custom domain or http://GithubUsername.github.io
 
 # Podcast Feed Settings
