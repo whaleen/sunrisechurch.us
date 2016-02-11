@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="en-us">
 	<channel>
-		<atom:link href="http://soitscometothis.net/microcast/podcast.rss" rel="self" type="application/rss+xml" />
+		<atom:link href="http://127.0.0.1:4000/podcast.rss" rel="self" type="application/rss+xml" />
 		<title>Sunrise Church</title>
 		<description>A Podcast of Sermons from Sunrise Church, a Christian Reformed Church in McMinnville OR pastored by Bill Wilton.</description>
-		<link>http://soitscometothis.net/microcast</link>
+		<link>http://127.0.0.1:4000</link>
 		<language>en-us</language>
-		<copyright>2016-2016-02-10 20:03:45 -0500 Sunrise Church</copyright>
-		<pubDate>Wed, 10 Feb 2016 20:03:45 -0500</pubDate>
-		<lastBuildDate>Wed, 10 Feb 2016 20:03:45 -0500</lastBuildDate>
+		<copyright>2016-2016-02-10 20:22:40 -0500 Sunrise Church</copyright>
+		<pubDate>Wed, 10 Feb 2016 20:22:40 -0500</pubDate>
+		<lastBuildDate>Wed, 10 Feb 2016 20:22:40 -0500</lastBuildDate>
 		<image>
-			<link>http://soitscometothis.net/microcast</link>
-			<url>http://soitscometothis.net/microcast/images/itunes.png</url>
+			<link>http://127.0.0.1:4000</link>
+			<url>http://127.0.0.1:4000/images/itunes.png</url>
 			<title>Sunrise Church</title>
 		</image>
 		<itunes:subtitle>A Podcast of Sermons from Sunrise Church, a Christian Reformed Church in McMinnville OR pastored by Bill Wilton.</itunes:subtitle>
@@ -22,7 +22,7 @@
 			<itunes:name>Bill Wilton</itunes:name>
 			<itunes:email>bill@sunrisechurch.us</itunes:email>
 		</itunes:owner>
-		<itunes:image href="http://soitscometothis.net/microcast/images/itunes.png" />
+		<itunes:image href="http://127.0.0.1:4000/images/itunes.png" />
 		<itunes:category text="Technology">
 			<itunes:category text="Podcasting" />
 		</itunes:category>
@@ -39,17 +39,17 @@
 		
 			<item>
 				<title>Episode 1: Daniel</title>
-				<link>http://soitscometothis.net/microcast/1</link>
-				<pubDate>Thu, 28 Jan 2016 21:55:44 -0500</pubDate>
+				<link>http://127.0.0.1:4000/1</link>
+				<pubDate>Wed, 10 Feb 2016 00:55:44 -0500</pubDate>
 				<description>&lt;p&gt;This is where you would put &lt;a href=&quot;&quot;&gt;shownotes&lt;/a&gt; if you had any.&lt;/p&gt;&lt;p&gt;It is important that they are written in HTML without manual line breaks in the text. If you need link breaks or paragraphs, use the correct tags as you see here.&lt;/p&gt;</description>
-				<guid isPermaLink="true">http://soitscometothis.net/microcast/1</guid>
-				<enclosure url="http://soitscometothis.net/microcast/audio/2016-02-07.m4a" length="3258374" type="audio/x-m4a"/>
+				<guid isPermaLink="true">http://127.0.0.1:4000/1</guid>
+				<enclosure url="http://127.0.0.1:4000/audio/2016-02-07.m4a" length="49422855" type="audio/x-m4a"/>
 				<itunes:author>Bill Wilton</itunes:author>
 				<itunes:subtitle>Sunrise Church: Episode 1: Daniel</itunes:subtitle>
 				<itunes:summary>A small explanation of what we&#39;re doing here.</itunes:summary>
-				<itunes:duration>3:14</itunes:duration>
+				<itunes:duration>49:30</itunes:duration>
 				<itunes:keywords></itunes:keywords>
-				<itunes:image href="http://soitscometothis.net/microcast/images/itunes.png" />
+				<itunes:image href="http://127.0.0.1:4000/images/itunes.png" />
 				<itunes:explicit>no</itunes:explicit>
 				<itunes:block>no</itunes:block>
 			</item>
