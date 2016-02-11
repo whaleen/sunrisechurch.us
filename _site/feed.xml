@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sunrise Church</title>
+    <description>A Podcast of Sermons from Sunrise Church, a Christian Reformed Church in McMinnville OR pastored by Bill Wilton.</description>
+    <link>http://soitscometothis.net/microcast/</link>
+    <atom:link href="http://soitscometothis.net/microcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 10 Feb 2016 19:55:25 -0500</pubDate>
+    <lastBuildDate>Wed, 10 Feb 2016 19:55:25 -0500</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Episode 1: Daniel</title>
+        <description>&lt;audio controls=&quot;&quot;&gt;
+&lt;source src=&quot;http://soitscometothis.net/microcast/audio/2016-02-07.m4a&quot; type=&quot;audio/x-m4a&quot; /&gt;
+Your browser does not support the audio element.
+&lt;/audio&gt;
+&lt;p&gt;This is where you would put &lt;a href=&quot;&quot;&gt;shownotes&lt;/a&gt; if you had any.&lt;/p&gt;
+&lt;p&gt;It is important that they are written in HTML without manual line breaks in the text. If you need link breaks or paragraphs, use the correct tags as you see here.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 Jan 2016 21:55:44 -0500</pubDate>
+        <link>http://soitscometothis.net/microcast/1</link>
+        <guid isPermaLink="true">http://soitscometothis.net/microcast/1</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
