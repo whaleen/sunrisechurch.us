@@ -6,10 +6,26 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
   <link rel="stylesheet" href="{{ site.url }}/style.css">
+  <link rel="stylesheet" href="{{ site.url }}/css/audioplayer.css">
   </head>
 <body>
   <div class="container">
     {{ content }}
   </div>
+
+  <!-- JS -->
+  <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <!-- Thanks dude: http://osvaldas.info/audio-player-responsive-and-touch-friendly -->
+  <script src="{{ site.url }}/js/audioplayer.js"></script>
+  <script>
+  $( 'audio' ).audioPlayer(
+  {
+      classPrefix: 'audioplayer',
+      strPlay: 'Play',
+      strPause: 'Pause',
+      strVolume: 'Volume'
+  });
+  </script>
+
 </body>
 </html>

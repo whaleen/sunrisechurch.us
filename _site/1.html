@@ -6,6 +6,7 @@
   <title>Episode 1: Daniel</title>
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
   <link rel="stylesheet" href="http://127.0.0.1:4000/style.css">
+  <link rel="stylesheet" href="http://127.0.0.1:4000/css/audioplayer.css">
   </head>
 <body>
   <div class="container">
@@ -32,8 +33,8 @@
   <div class="post-date">
     <time>10 Feb 2016</time>
   </div>
-  <audio controls="">
-<source src="http://127.0.0.1:4000/audio/2016-02-07.m4a" type="audio/x-m4a" />
+  <audio preload="auto" controls="">
+<source src="http://127.0.0.1:4000/audio/2016-02-07.mp3" />
 Your browser does not support the audio element.
 </audio>
 <p>This is where 'show notes" go if any. A brief synopsis of the 'episode' is already in the summary (visable in iTunes or other app) so here would be more extended writing. Totally optional.</p>
@@ -41,5 +42,20 @@ Your browser does not support the audio element.
 </div>
 
   </div>
+
+  <!-- JS -->
+  <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <!-- Thanks dude: http://osvaldas.info/audio-player-responsive-and-touch-friendly -->
+  <script src="http://127.0.0.1:4000/js/audioplayer.js"></script>
+  <script>
+  $( 'audio' ).audioPlayer(
+  {
+      classPrefix: 'audioplayer',
+      strPlay: 'Play',
+      strPause: 'Pause',
+      strVolume: 'Volume'
+  });
+  </script>
+
 </body>
 </html>

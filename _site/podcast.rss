@@ -6,9 +6,9 @@
 		<description>A Podcast of Sermons from Sunrise Church, a Christian Reformed Church in McMinnville OR pastored by Bill Wilton.</description>
 		<link>http://127.0.0.1:4000</link>
 		<language>en-us</language>
-		<copyright>2016-2016-02-10 21:40:20 -0500 Sunrise Church</copyright>
-		<pubDate>Wed, 10 Feb 2016 21:40:20 -0500</pubDate>
-		<lastBuildDate>Wed, 10 Feb 2016 21:40:20 -0500</lastBuildDate>
+		<copyright>2016-2016-02-10 22:16:03 -0500 Sunrise Church</copyright>
+		<pubDate>Wed, 10 Feb 2016 22:16:03 -0500</pubDate>
+		<lastBuildDate>Wed, 10 Feb 2016 22:16:03 -0500</lastBuildDate>
 		<image>
 			<link>http://127.0.0.1:4000</link>
 			<url>http://127.0.0.1:4000/images/itunes.png</url>
@@ -43,7 +43,7 @@
 				<pubDate>Wed, 10 Feb 2016 00:55:44 -0500</pubDate>
 				<description>&lt;p&gt;This is where &#39;show notes&quot; go if any. A brief synopsis of the &#39;episode&#39; is already in the summary (visable in iTunes or other app) so here would be more extended writing. Totally optional.&lt;/p&gt;</description>
 				<guid isPermaLink="true">http://127.0.0.1:4000/1</guid>
-				<enclosure url="http://127.0.0.1:4000/audio/2016-02-07.m4a" length="49422855" type="audio/x-m4a"/>
+				<enclosure url="http://127.0.0.1:4000/audio/2016-02-07.mp3" length="49422855" type="audio/x-m4a"/>
 				<itunes:author>Bill Wilton</itunes:author>
 				<itunes:subtitle>Sunrise Church: Episode 1: Daniel</itunes:subtitle>
 				<itunes:summary>A small explanation of what we&#39;re doing here. This summary of the podcast is written each week.</itunes:summary>
