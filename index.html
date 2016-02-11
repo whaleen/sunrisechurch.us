@@ -6,13 +6,14 @@ layout: default
 {% if site.posts.size == 0 %}
   <h2>No post found</h2>
 {% else %}
+<h2>Archive</h2>
 {% for post in site.posts %}
   <div class="list-item">
+    <span class="list-post-date">
+      <time>{{ post.date | date_to_string }}</time>
+    </span>
     <p class="list-post-title">
-      <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> &middot;
-      <span class="list-post-date">
-        <time>{{ post.date | date_to_string }}</time>
-      </span>
+      <a href="{{ site.url }}{{ post.url }}">{{ post.title }} - <strong>Test Play in Browser</strong></a>
     </p>
 
   </div>
