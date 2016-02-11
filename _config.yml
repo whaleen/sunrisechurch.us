@@ -10,7 +10,7 @@ url: "http://whaleen.github.io/sunrisechurch.us" # Development host
 
 # Podcast Feed Settings
 title:          "Sunrise Church" # name of your podcast
-email:          bill@sunrisechurch.us # CHANGE
+email:          pastorbill@sunrisechurch.us # CHANGE
 description:    "A Podcast of Sermons from Sunrise Church, a Christian Reformed Church in McMinnville OR pastored by Bill Wilton." # CHANGE
 subtitle:       "Weekly Sermons from Pastor Wilton" # CHANGE
 lang:           en-us
