@@ -5,8 +5,8 @@
     <description>A Podcast of Sermons from Sunrise Church, a Christian Reformed Church in McMinnville OR pastored by Bill Wilton.</description>
     <link>http://127.0.0.1:4000/</link>
     <atom:link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Feb 2016 22:19:36 -0500</pubDate>
-    <lastBuildDate>Wed, 10 Feb 2016 22:19:36 -0500</lastBuildDate>
+    <pubDate>Wed, 10 Feb 2016 22:22:00 -0500</pubDate>
+    <lastBuildDate>Wed, 10 Feb 2016 22:22:00 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -15,6 +15,8 @@
 &lt;source src=&quot;http://127.0.0.1:4000/audio/2016-02-07.mp3&quot; /&gt;
 Your browser does not support the audio element.
 &lt;/audio&gt;
+&lt;hr /&gt;
+
 &lt;p&gt;This is where &#39;show notes&quot; go if any. A brief synopsis of the &#39;episode&#39; is already in the summary (visable in iTunes or other app) so here would be more extended writing. Totally optional.&lt;/p&gt;
 </description>
         <pubDate>Wed, 10 Feb 2016 00:55:44 -0500</pubDate>

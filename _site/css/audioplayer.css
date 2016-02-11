@@ -5,11 +5,11 @@
 		.audioplayer
 		{
 			height: 2.5em; /* 40 */
-			color: #333;
+			color: #fff;
 			border: 1px solid #222;
 			position: relative;
 			z-index: 1;
-			background: #fff;
+			background: #333;
 		}
 
 
@@ -45,7 +45,7 @@
 			}
 				.audioplayer:not(.audioplayer-mini) .audioplayer-playpause
 				{
-					border-right: 1px solid #fff;
+					border-right: 1px solid #555;
 					border-right-color: rgba( 255, 255, 255, .1 );
 				}
 				.audioplayer-mini .audioplayer-playpause
@@ -67,7 +67,7 @@
 					height: 0;
 					border: 0.5em solid transparent; /* 8 */
 					border-right: none;
-					border-left-color: #333;
+					border-left-color: #fff;
 					content: '';
 					position: absolute;
 					top: 50%;
@@ -88,7 +88,7 @@
 					{
 						width: 40%;
 						height: 100%;
-						background-color: #333;
+						background-color: #fff;
 						content: '';
 						position: absolute;
 						top: 0;
@@ -122,7 +122,7 @@
 				}
 				.audioplayer-time-duration
 				{
-					border-right: 1px solid #fff;
+					border-right: 1px solid #555;
 					border-right-color: rgba( 255, 255, 255, .1 );
 					right: 2.5em; /* 40 */
 				}
@@ -160,7 +160,7 @@
 				}
 				.audioplayer-bar-loaded
 				{
-					background-color: #fff;
+					background-color: #333;
 					z-index: 1;
 				}
 				.audioplayer-bar-played
@@ -199,7 +199,7 @@
 					{
 						width: 0.313em; /* 5 */
 						height: 0.375em; /* 6 */
-						background-color: #333;
+						background-color: #fff;
 						display: block;
 						position: relative;
 						z-index: 1;
@@ -218,7 +218,7 @@
 							height: 0;
 							border: 0.5em solid transparent; /* 8 */
 							border-left: none;
-							border-right-color: #333;
+							border-right-color: #fff;
 							z-index: 2;
 							top: 50%;
 							right: -0.25em;
@@ -229,7 +229,7 @@
 							/* "volume" icon by Nicolas Gallagher, http://nicolasgallagher.com/pure-css-gui-icons */
 							width: 0.313em; /* 5 */
 							height: 0.313em; /* 5 */
-							border: 0.25em double #333; /* 4 */
+							border: 0.25em double #fff; /* 4 */
 							border-width: 0.25em 0.25em 0 0; /* 4 */
 							left: 0.563em; /* 9 */
 							top: -0.063em; /* 1 */
@@ -254,7 +254,7 @@
 					left: 0;
 					right: -1px;
 					top: -9999px;
-					background: #fff;
+					background: #333;
 				}
 					.audioplayer-volume:not(:hover) .audioplayer-volume-adjust
 					{

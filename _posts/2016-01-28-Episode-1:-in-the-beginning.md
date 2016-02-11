@@ -16,4 +16,5 @@ permalink: /1 # will be the ending part of the pages URL, delete to default to t
 <source src="{{site.url}}{{ page.file }}">
 Your browser does not support the audio element.
 </audio>
+<hr>
 {{ page.shownotes }}
