@@ -8,15 +8,11 @@ layout: default
 {% else %}
 {% for post in site.posts %}
   <div class="list-item">
-    <h2 class="list-post-title">
+    <li class="list-post-title">
       <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-    </h2>
+    </li>
     <div class="list-post-date">
       <time>{{ post.date | date_to_string }}</time>
-    </div>
-    <div class="postcontent">
-      <time>{{ post.content }}</time>
-        <hr>
     </div>
   </div>
 {% endfor %}
