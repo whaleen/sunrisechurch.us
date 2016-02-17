@@ -2,11 +2,11 @@
 layout: default
 ---
 {% include header.html %}
-<div class="content list">
+<div class="container">
 {% if site.posts.size == 0 %}
   <h2>No post found</h2>
 {% else %}
-<h2>Archive</h2>
+<h2 class="fw-100">Archive</h2>
 {% for post in site.posts %}
   <div class="list-item">
     <span class="list-post-date">
