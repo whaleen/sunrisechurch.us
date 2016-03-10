@@ -1,0 +1,26 @@
+---
+layout: page
+permalink: /listen/
+---
+
+<div class="container">
+<div class="">
+
+<h1>Sermon Podcast</h1>
+<h2>Subscribe</h2>
+<nav class="masthead-nav">
+  <a class="btn btn-primary" href="feed://whaleen.github.io/sunrisechurch.us/podcast.rss">iOS</a>
+  <a class="btn btn-primary" href="itpc://whaleen.github.io/sunrisechurch.us/podcast.rss">iTunes</a>
+</nav>
+
+<h1>Sermon Archive</h1>
+
+{% for post in site.categories.sermon %}
+
+  {{ post.date }}
+  <a href="{{ post.url }}">{{ post.title }}</a>
+
+{% endfor %}
+
+</div>
+</div>
