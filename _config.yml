@@ -89,7 +89,7 @@ prose:
               value: "pears"
             - name: "Mangos"
               value: "mangos"
-    _posts/static:
+    _posts/sermons:
       - name: "layout"
         field:
           element: "hidden"
