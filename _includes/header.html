@@ -1,9 +1,54 @@
-<header class="p3 masthead">
-  <h1 class="masthead-title">
-    <a class="black" href="{{ site.url }}/">{{ site.title }}<span class="gray"> podcast</span></a>
-  </h1>
-  <nav class="masthead-nav">
-    <a class="button" href="feed://whaleen.github.io/sunrisechurch.us/podcast.rss">iPhone Subscribe Test</a><br>
-    <a class="button" href="itpc://whaleen.github.io/sunrisechurch.us/podcast.rss">Subscribe in iTunes (Laptops)</a>
-  </nav>
+<nav class="db dt-l w-100 border-box pa3 ph5-l">
+  <a class="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
+    <img src="{{ site.url }}/images/logo.png" class="dib w2 h2" alt="Site Name">
+  </a>
+  <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
+    {% for nav_item in site.data.nav %}
+          {% if page.url == nav_item.link %}
+          <!-- do something with current page -->
+          {% else %}
+          {% endif %}
+        <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="{{ nav_item.link }}">
+          {{ nav_item.name }}</a>
+    {% endfor %}
+  </div>
+</nav>
+
+<!-- <nav class='greedy-nav animated fadeInDown border-bottom'>
+<button><div class="hamburger animated slideInRight"></div></button>
+  <ul class='visible-links'>
+
+    {% for nav_item in site.data.nav %}
+
+      {% if page.url == nav_item.link %}
+      <li><a class="silver" style="cursor:pointer;">
+      {% else %}
+      <li><a class="" href="{{ nav_item.link }}">
+      {% endif %}
+
+        {{ nav_item.name }}</a></li>
+
+    {% endfor %}
+
+  </ul>
+  <ul class="hidden-links hidden animated fadeIn"></ul>
+</nav> -->
+
+<header class="masthead">
+
+  <div class="clearfix flex flex-center px2">
+
+    <div class="col-2 sm-col-1">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 461.6 461.6" width="100%" height="100%">
+      <path d="M414.5 380.7L315.6 209.4h31.4v-29h-48.1L245.3 87.5V0h-29v87.5l-53.6 92.9h-48.1v29h31.4L47 380.7h169.3v80.9h29v-80.9H414.5zM364.3 351.7H245.3V209.4h36.9L364.3 351.7zM265.4 180.4h-20.1V145.5L265.4 180.4zM216.3 145.5v34.9h-20.1L216.3 145.5zM97.2 351.7l82.2-142.3h36.9v142.3H97.2z"
+            fill="#222"
+      />
+    </svg>
+    </div>
+
+    <div class="col col-12 sm-col-12 md-col-4">
+      <h1 class="h1-responsive">Sunrise Church</h1>
+    </div>
+
+  </div>
 </header>

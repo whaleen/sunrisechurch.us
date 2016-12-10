@@ -1,0 +1,21 @@
+---
+sermon:
+- sys:
+    id: 33a2xioMlWsymAMy0eUAIq
+  title: Daniel
+  summary: About this sermon.
+  mp3:
+    title: '2016-02-07'
+    url: //downloads.contentful.com/ar2eskgxs93c/aopptgf2KsKEWI2qsIqke/6775a9bc9870e4eca43f33ac47a1a162/2016-02-07.mp3
+- sys:
+    id: 2WMXfnzwYMCCG888sMsg0K
+  title: Esther 9
+  summary: Stuff
+books:
+- sys:
+    id: rCE3XMWzyCywmoIIkkWoA
+  title: Everyone is a Theologian
+  body: |-
+    Lorem and things. The way to the store of *forward*. Get me some grapes. I am hungry.
+
+    ### This is a subtitle

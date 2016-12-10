@@ -6,35 +6,54 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
   <link rel="stylesheet" href="{{ site.url }}/css/main.css">
-  <link rel="stylesheet" href="{{ site.url }}/css/audioplayer.css">
-  </head>
+  <!-- <link rel="stylesheet" href="{{ site.url }}/css/audioplayer.css"> -->
+  <link rel="stylesheet" href="{{ site.url }}/assets/mediaelement/build/mediaelementplayer.css" /></code>
+
+  <!-- tachyons.css -->
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.5/css/tachyons.min.css"/>
+
+</head>
 
 <!-- Background images -->
 <!-- <body class="white bg-gray bg-cover bg-top"
 style="background-image: url({{ site.url }}/images/giphy.gif)"> -->
 
-<body class="fw-100">
-
-
+<body class="fw-100 m0 p0">
 
     {{ content }}
 
-
-
-
   <!-- JS -->
+  <!-- This is jQuery. -->
   <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
-  <!-- Thanks dude: http://osvaldas.info/audio-player-responsive-and-touch-friendly -->
-  <script src="{{ site.url }}/js/audioplayer.js"></script>
-  <script>
-  $( 'audio' ).audioPlayer(
-  {
-      classPrefix: 'audioplayer',
-      strPlay: 'Play',
-      strPause: 'Pause',
-      strVolume: 'Volume'
-  });
-  </script>
+
+    <!-- Which of these 'HTML5 audio' players: 1) performs best on all devices (touched, moused),
+    and 2) allows for CSS styling that is principled and dumbed down. -->
+
+      <!-- Player Option 1 -->
+      <!-- Thanks dude: http://osvaldas.info/audio-player-responsive-and-touch-friendly -->
+      <!-- <script src="{{ site.url }}/js/audioplayer.js"></script>
+        <script>
+        $( 'audio' ).audioPlayer(
+        {
+            classPrefix: 'audioplayer',
+            strPlay: 'Play',
+            strPause: 'Pause',
+            strVolume: 'Volume'
+        });
+        </script> -->
+
+      <!-- Player Option 2 -->
+      <!-- https://github.com/johndyer/mediaelement/ -->
+      <script src="{{ site.url }}/assets/mediaelement/build/mediaelement-and-player.min.js"></script>
+        <script>
+        // using jQuery
+        $('video,audio').mediaelementplayer(/* Options */);
+        </script>
+
+      <!-- Player Option 3 -->
+      <!-- http://kolber.github.io/audiojs/ -->
+
+      <script src="{{ site.url }}/js/nav.js"></script>
 
 </body>
 </html>

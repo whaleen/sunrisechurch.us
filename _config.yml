@@ -5,16 +5,16 @@
 baseurl: "" # repository name
 
 # url: "http://sunrisechurch.us" # Production host
-url: "http://whaleen.github.io/sunrisechurch.us" # Development host
-# url: "http://127.0.0.1:4000" # Either custom domain or http://GithubUsername.github.io
+# url: "http://whaleen.github.io/sunrisechurch.us" # Development host
+url: "http://127.0.0.1:4000" # Either custom domain or http://GithubUsername.github.io
 
 # Podcast Feed Settings
 title:          "Sunrise Church" # name of your podcast
-email:          pastorbill@sunrisechurch.us # CHANGE
+email:          mail@website.us # CHANGE
 description:    "A Podcast of Sermons from Sunrise Church, a Christian Reformed Church in McMinnville OR pastored by Bill Wilton." # CHANGE
 subtitle:       "Weekly Sermons from Pastor Wilton" # CHANGE
 lang:           en-us
-author:         Bill Wilton # CHANGE
+author:         Sunrise Church # CHANGE
 copyright:      "&#x2117; &amp; &#xA9; 2016"
 
 
@@ -43,3 +43,26 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
+
+
+
+exclude: [Gemfile, Gemfile.lock]
+
+
+
+# testing contentful as a cms option for church staff to use. will require jekyll build automated...
+contentful:
+  spaces:
+    - sermons: # Jekyll _data folder identifier - Required
+        space: ar2eskgxs93c        # Required
+        access_token: 45c9f413a7f6265b946545ccbc7e4ec96fc93feea327a48634caff403e419627 # Required
+        cda_query:                 # Optional
+          include: 2
+          limit: 100
+        content_types:             # Optional
+          cat: sermon
+        client_options:            # Optional
+          :preview: false
+          :raise_errors: true
+          :dynamic_entries: :auto
+        base_path: sermon        # Optional - Defaults to Current directory
